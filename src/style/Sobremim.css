@@ -1,0 +1,60 @@
+@media(min-width: 501px) {
+  .img-gianne {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 3vh;
+    margin-bottom: 1rem;
+  }
+
+  .titulo-sobreMim {
+    align-items: center;
+    color: #8878b1;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-sobreMim {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .texto-pessoal {
+    text-align: left;
+    font-size: larger;
+    width: 70%;
+    color: #60547e;
+  }
+}
+
+
+@media(max-width: 500px) {
+  .titulo-sobreMim {
+    align-items: center;
+    color: #8878b1;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-sobreMim {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .texto-pessoal {
+    font-size: larger;
+    text-align: start;
+    width: 90%;
+  }
+  
+  .img-gianne {
+    height: 47vh;
+    width: 85%;
+    border-radius: 3vh;
+  }
+}
+

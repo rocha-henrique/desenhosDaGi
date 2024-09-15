@@ -1,0 +1,20 @@
+@media(min-width: 501px) {
+  .sub-titulo {
+    color: #8878b1;
+  }
+  .mensagem-explicacao {
+    width: 16rem;
+    color: #60547e;
+  }
+}
+
+
+@media(max-width: 500px) {
+  .sub-titulo {
+    text-align: center;
+    color: #8878b1;
+  }
+  .mensagem-explicacao {
+    color: #60547e;
+  }
+}

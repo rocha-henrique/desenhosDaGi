@@ -7,7 +7,7 @@ import FotoAmpliada from './pages/FotoAmpliada';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={ <Home /> } />
+      <Route path="/desenhosdagi" element={ <Home /> } />
       <Route path="/informaçoes" element={ <Informaçoes /> } />
       <Route path="/sobremim" element={ <SobreMim /> } />
       <Route path="/foto/:id" element={ <FotoAmpliada /> } />

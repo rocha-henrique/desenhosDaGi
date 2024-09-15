@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
       <a href="https://www.instagram.com/desenhosdagi_/" target="_blank" rel="noopener noreferrer">
         <img className="instagram" src={instagram} alt="" />
       </a>
-      <Link to="/">
+      <Link to="/desenhosDaGi">
         <h2 className='titulo'>
           Gianne Bianca
         </h2>
@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
           onClick={handleMenuClick}
           onBlur={handleMenuBlur}
         >
-          <Link to="/">
+          <Link to="/desenhosDaGi">
             <h4 className='texto-link'>
               Inicio
             </h4>

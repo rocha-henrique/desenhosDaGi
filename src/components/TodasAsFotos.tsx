@@ -16,7 +16,7 @@ const TodasAsFotos: React.FC = () => {
   const [fotosState] = useState(fotos);
 
   const handleShare = (foto: Foto) => {
-    const sharedUrl = `${window.location.origin}/DesenhosDaGi?foto=${foto.id}`;
+    const sharedUrl = `${window.location.origin}/DesenhosDaGi/foto/${foto.id}`;
     console.log('URL compartilhada:', sharedUrl);
   
     if (navigator.share) {
@@ -30,7 +30,7 @@ const TodasAsFotos: React.FC = () => {
       window.open(whatsappUrl, '_blank');
     }
   };
-  
+
   return (
     <div className='container-todasAsFotos'>
       <img className='img-principal' src={fotoPrincipal} alt="" />

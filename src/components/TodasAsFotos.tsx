@@ -6,17 +6,11 @@ import compartilhar from '../assets/images/compartilhar.png';
 import '../style/TodasAsFotos.css';
 import '../style/Home.css';
 
-interface Foto {
-  id: number;
-  src: string;
-  alt: string;
-}
-
 const TodasAsFotos: React.FC = () => {
   const [fotosState] = useState(fotos);
 
-  const handleShare = (foto: Foto) => {
-    const sharedUrl = `${window.location.origin}/desenhosDaGi/foto/${foto.id}`;
+  const handleShare = () => {
+    const sharedUrl = `${window.location.origin}/desenhosDaGi/`;
     console.log('URL compartilhada:', sharedUrl);
   
     if (navigator.share) {
@@ -44,7 +38,7 @@ const TodasAsFotos: React.FC = () => {
               </Link>
               <button 
                 className='botao-compartilhar' 
-                onClick={() => handleShare(foto)}
+                onClick={() => handleShare()}
               >
                 <div className="compartilhar">
                   <img className="img-compartilhar" src={ compartilhar } alt="" />
@@ -62,7 +56,7 @@ const TodasAsFotos: React.FC = () => {
               </Link>
               <button 
                 className='botao-compartilhar' 
-                onClick={() => handleShare(foto)}
+                onClick={() => handleShare()}
               >
                 <div className="compartilhar">
                   <img className="img-compartilhar" src={ compartilhar } alt="" />

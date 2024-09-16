@@ -16,7 +16,7 @@ const TodasAsFotos: React.FC = () => {
   const [fotosState] = useState(fotos);
 
   const handleShare = (foto: Foto) => {
-    const sharedUrl = `${window.location.origin}/DesenhosDaGi/foto/${foto.id}`;
+    const sharedUrl = `${window.location.origin}/desenhosDaGi/foto/${foto.id}`;
     console.log('URL compartilhada:', sharedUrl);
   
     if (navigator.share) {

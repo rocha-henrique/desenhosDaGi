@@ -42,17 +42,17 @@ const Navbar: React.FC = () => {
           onBlur={handleMenuBlur}
         >
           <Link to="/desenhosDaGi">
-            <h4 className='texto-link'>
+            <h4 className='texto-menu'>
               Inicio
             </h4>
           </Link>
           <Link to="/sobremim">
-            <h4 className='texto-link'>
+            <h4 className='texto-menu'>
               Sobre mim
             </h4>
           </Link>
           <Link to="/informaçoes">
-            <h4 className='texto-link'>
+            <h4 className='texto-menu'>
               Informaçoes
             </h4>
           </Link>

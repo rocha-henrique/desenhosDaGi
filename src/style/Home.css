@@ -3,8 +3,9 @@
     color: #8878b1;
   }
   .mensagem-explicacao {
-    width: 16rem;
+    width: 15vw;
     color: #60547e;
+    font-size: 1.4vw;
   }
 }
 

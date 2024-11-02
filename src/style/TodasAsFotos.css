@@ -151,6 +151,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 1rem;
+    gap: 20px
   }
 
   .title {
@@ -178,7 +179,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 99%;
+    padding: 80px 15px 40px 15px;
   }
 
   .img {
@@ -210,6 +211,7 @@
     display: flex;
     align-items: center;
     height: 1rem;
+    
   }
 
   .img-compartilhar {
@@ -219,12 +221,6 @@
   .imagensPrimeiroLote {
     margin-top: 3rem;
     margin-right: 1rem;
-  }
-
-  .container-botao {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0.5rem;
   }
   
   h1, h2, h3, h4, h5, h6 {
